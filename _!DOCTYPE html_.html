@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zabby Solution - Your Premier Washing Service</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8; /* Light gray background */
+            color: #333;
+        }
+        /* Custom scrollbar for better aesthetics */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col">
+
+    <!-- Header Section -->
+    <header class="bg-gradient-to-r from-blue-600 to-indigo-700 text-white p-4 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold rounded-md px-3 py-1 bg-white bg-opacity-20">Zabby Solution</h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#" class="hover:underline text-lg font-medium">Home</a></li>
+                    <li><a href="#about-us" class="hover:underline text-lg font-medium">About Us</a></li>
+                    <li><a href="#" class="hover:underline text-lg font-medium">Services</a></li>
+                    <li><a href="#pricing" class="hover:underline text-lg font-medium">Pricing</a></li>
+                    <li><a href="#contact" class="hover:underline text-lg font-medium">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <main class="flex-grow container mx-auto p-8 flex flex-col items-center justify-center text-center">
+        <section class="bg-white p-10 rounded-xl shadow-2xl max-w-3xl w-full transform transition-all duration-300 hover:scale-105">
+            <h2 class="text-5xl font-extrabold text-gray-900 mb-6 leading-tight">Effortless Washing with Free Pick-up & Delivery!</h2>
+            <p class="text-xl text-gray-700 mb-8">
+                Experience the ultimate convenience. We pick up your laundry, wash it with care,
+                and deliver it fresh and clean right to your doorstep, absolutely free, in **Kitengela, Athi River, and Mlolongo**.
+            </p>
+            <button class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full text-lg shadow-lg transform transition-transform duration-200 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-blue-300">
+                Schedule a Pick-up
+            </button>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about-us" class="bg-white p-10 rounded-xl shadow-2xl max-w-3xl w-full mt-12 transform transition-all duration-300 hover:scale-105">
+            <h2 class="text-4xl font-bold text-gray-900 mb-6">About Zabby Solution</h2>
+            <p class="text-lg text-gray-700 mb-4">
+                Welcome to **Zabby Solution**, your trusted partner for premium laundry services right here in **Kitengela, Kajiado County, Kenya**.
+                We understand that your time is precious, and laundry can be a chore. That's why we've built our service around ultimate convenience and exceptional care.
+            </p>
+            <p class="text-lg text-gray-700 mb-4">
+                Our mission is to simplify your life by providing a seamless, high-quality washing experience with the added benefit of **free pick-up and delivery** across **Kitengela, Athi River, and Mlolongo**.
+                From your everyday home clothes to delicate sleeping materials, we treat every item with the attention it deserves, ensuring they return to you fresh, clean, and perfectly cared for.
+            </p>
+            <p class="text-lg text-gray-700">
+                Join the growing number of satisfied customers in Kitengela, Athi River, and Mlolongo who trust Zabby Solution for their laundry needs. Let us handle the wash, so you can enjoy more of your free time!
+            </p>
+        </section>
+
+        <!-- Services Showcase Section -->
+        <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12 w-full max-w-5xl">
+            <div class="bg-white p-6 rounded-xl shadow-lg transform transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+                <img src="attached_assets/Precious-Cargo-Honda-Shadow-dog-food_1751373289579.jpg" alt="Motorbike Delivery with Laundry" class="rounded-lg mb-4 w-full h-auto object-cover">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-3">Free Pick-up & Delivery</h3>
+                <p class="text-gray-600">Enjoy the convenience of doorstep service without extra charges.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-lg transform transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+                <img src="https://images.unsplash.com/photo-1582735689369-4fe89db7114c?w=400&h=250&fit=crop" alt="Washing Home Clothes" class="rounded-lg mb-4 w-full h-auto object-cover">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-3">Home Clothes Washing</h3>
+                <p class="text-gray-600">From daily wear to special garments, we handle all your home clothes with care.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-lg transform transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+                <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&h=250&fit=crop" alt="Washing Sleeping Material" class="rounded-lg mb-4 w-full h-auto object-cover">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-3">Sleeping Material Care</h3>
+                <p class="text-gray-600">Duvets, sheets, pillowcases – we ensure your sleeping materials are fresh and clean.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-lg transform transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+                <img src="attached_assets/saefferot-duvet-7-5-tog__1213616_pe911182_s5_1751374139131.avif" alt="Clean Duvet" class="rounded-lg mb-4 w-full h-auto object-cover">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-3">Fast Turnaround</h3>
+                <p class="text-gray-600">Get your laundry back quickly, so you can focus on what matters.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-lg transform transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+                <img src="https://images.unsplash.com/photo-1586892477838-2b96e85e0f96?w=400&h=250&fit=crop" alt="Clean Duvet" class="rounded-lg mb-4 w-full h-auto object-cover">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-3">Affordable Pricing</h3>
+                <p class="text-gray-600">High-quality service that fits your budget, with transparent costs.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-lg transform transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+                <img src="https://images.unsplash.com/photo-1520206183501-b80df61043c2?w=400&h=250&fit=crop" alt="Human Sleeping Peacefully" class="rounded-lg mb-4 w-full h-auto object-cover">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-3">Quality Guarantee</h3>
+                <p class="text-gray-600">We stand by our service. Your satisfaction is our top priority.</p>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section id="pricing" class="bg-white p-10 rounded-xl shadow-2xl max-w-3xl w-full mt-12 transform transition-all duration-300 hover:scale-105">
+            <h2 class="text-4xl font-bold text-gray-900 mb-6">Our Pricing</h2>
+            <img src="https://images.unsplash.com/photo-1631679706909-1844bbd07221?w=400&h=250&fit=crop" alt="Duvet and Clothes" class="rounded-lg mb-6 w-full h-auto object-cover">
+            <p class="text-lg text-gray-700 mb-4">
+                At Zabby Solution, we believe in fair and flexible pricing tailored to your needs.
+                Our rates are **negotiable**, ensuring you get the best value for our premium laundry services.
+            </p>
+            <p class="text-lg text-gray-700">
+                Please contact us directly to discuss your specific requirements and get a personalized quote.
+            </p>
+            <button class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full text-lg shadow-lg transform transition-transform duration-200 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-blue-300 mt-6">
+                Get a Quote
+            </button>
+        </section>
+
+        <!-- Contact Us Section -->
+        <section id="contact" class="bg-white p-10 rounded-xl shadow-2xl max-w-3xl w-full mt-12 transform transition-all duration-300 hover:scale-105">
+            <h2 class="text-4xl font-bold text-gray-900 mb-6">Contact Us</h2>
+            <p class="text-lg text-gray-700 mb-4">
+                Have questions or ready to schedule your pick-up? Reach out to us!
+            </p>
+            <div class="text-left">
+                <p class="text-xl font-semibold text-gray-800 mb-2">Location:</p>
+                <p class="text-lg text-gray-700 mb-4">Kitengela, Kajiado County, Kenya</p>
+                <p class="text-xl font-semibold text-gray-800 mb-2">Phone:</p>
+                <p class="text-lg text-gray-700">0111980505</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white p-6 mt-8 shadow-inner">
+        <div class="container mx-auto text-center">
+            <p class="text-lg">&copy; 2025 Zabby Solution. All rights reserved.</p>
+            <div class="flex justify-center space-x-6 mt-4">
+                <a href="#" class="hover:text-blue-400 transition-colors duration-200">Privacy Policy</a>
+                <a href="#" class="hover:text-blue-400 transition-colors duration-200">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
